@@ -332,7 +332,6 @@ const postSlice = createSlice({
     });
   },
 });
-
 export const { changeInputField } = postSlice.actions;
 
 const postReducer = postSlice.reducer;
